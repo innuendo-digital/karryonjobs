@@ -37,3 +37,16 @@ add_filter( 'the_content_more_link', 'noo_content_read_more' );
 //// Include specific widgets
 // require_once( $widget_path . '/<widgets_name>.php');
 
+/* =============================================================================
+ *
+ * Custom functions for KarryOn Jobs
+ *
+ * ============================================================================*/
+
+// Enqueue Custom Stylesheet
+
+function innuendo_styles() {
+	wp_enqueue_style( 'innuendo_styles', NOO_ASSETS_URI . '/css/custom-styles.css');
+} 
+add_action( 'wp_enqueue_scripts', 'innuendo_styles' );
+
