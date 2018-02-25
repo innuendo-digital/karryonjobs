@@ -58,3 +58,4 @@ if ( noo_get_option( 'noo_header_use_image_logo', false ) ) {
 		</nav> <!-- /.navbar-collapse -->
 	</div> <!-- / .navbar -->
 </div>
+<div class="clear"></div>
