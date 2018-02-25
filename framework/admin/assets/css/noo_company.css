@@ -1,0 +1,11 @@
+.company-package-info label {
+	width: 30%;
+	min-width: 120px;
+	display: inline-block;
+}
+
+.company-package-info input {
+	width: 50%;
+	display: inline-block;
+}
+
