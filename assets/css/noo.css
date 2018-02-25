@@ -1724,7 +1724,7 @@ address {
 .container-fullwidth:after,
 .row:after,
 .panel-body:after,
-.navbar:after,
+/*.navbar:after,*/
 .navbar-header:after,
 .navbar-collapse:after,
 .sf-menu:after,

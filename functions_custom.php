@@ -50,3 +50,14 @@ function innuendo_styles() {
 } 
 add_action( 'wp_enqueue_scripts', 'innuendo_styles' );
 
+// Allow employers to add media to their job descriptions
+
+function add_employer_caps() {
+    // gets the author role
+    $role = get_role( 'employer' );
+
+    $role->add_cap( 'upload_files' ); 
+    $role->add_cap( 'edit_others_posts' ); 
+}
+add_action( 'admin_init', 'add_theme_caps');
+
