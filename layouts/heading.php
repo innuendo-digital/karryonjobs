@@ -85,7 +85,7 @@ if( ! empty($heading) ) :
 					<?php do_action( 'noo-member-employer-heading' ); ?>
 					<li class="divider" role="presentation"></li>
 					<?php //if(jm_is_woo_job_posting()) : ?>
-						<li class="<?php echo esc_attr(Noo_Member::get_actice_enpoint_class('manage-plan'))?>"><a href="<?php echo Noo_Member::get_endpoint_url('manage-plan')?>"><i class="fa fa-file-text-o"></i> <?php _e('Manage Plan','noo')?></a></li>
+						<li class="<?php echo esc_attr(Noo_Member::get_actice_enpoint_class('manage-plan'))?>"><a href="<?php echo Noo_Member::get_endpoint_url('manage-plan')?>"><i class="fa fa-credit-card"></i> <?php _e('Manage Plan','noo')?></a></li>
 					<?php //endif; ?>
 					<li class="<?php echo esc_attr(Noo_Member::get_actice_enpoint_class('company-profile'))?>"><a href="<?php echo Noo_Member::get_company_profile_url()?>"><i class="fa fa-users"></i> <?php _e('Company Profile','noo')?></a></li>
 				<?php elseif( Noo_Member::is_candidate() ) : ?>
@@ -99,7 +99,7 @@ if( ! empty($heading) ) :
 					<?php do_action( 'noo-member-candidate-heading' ); ?>
 					<li class="divider" role="presentation"></li>
 					<?php if(jm_is_woo_resume_posting()) : ?>
-						<li class="<?php echo esc_attr(Noo_Member::get_actice_enpoint_class('manage-plan'))?>"><a href="<?php echo Noo_Member::get_endpoint_url('manage-plan')?>"><i class="fa fa-file-text-o"></i> <?php _e('Manage Plan','noo')?></a></li>
+						<li class="<?php echo esc_attr(Noo_Member::get_actice_enpoint_class('manage-plan'))?>"><a href="<?php echo Noo_Member::get_endpoint_url('manage-plan')?>"><i class="fa fa-credit-card"></i> <?php _e('Manage Plan','noo')?></a></li>
 					<?php endif; ?>
 					<li class="<?php echo esc_attr(Noo_Member::get_actice_enpoint_class('candidate-profile'))?>"><a href="<?php echo Noo_Member::get_endpoint_url('candidate-profile')?>"><i class="fa fa-user"></i> <?php _e('My Profile','noo')?></a></li>
 				<?php endif; ?>

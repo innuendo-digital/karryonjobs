@@ -86,7 +86,7 @@
 								<?php do_action( 'noo-member-employer-menu' ); ?>
 								<li class="divider" role="presentation"></li>
 								<?php //if(jm_is_woo_job_posting()) : ?>
-								<li class="menu-item" ><a href="<?php echo Noo_Member::get_endpoint_url('manage-plan')?>"><i class="fa fa-file-text-o"></i> <?php _e('Manage Plan','noo')?></a></li>
+								<li class="menu-item" ><a href="<?php echo Noo_Member::get_endpoint_url('manage-plan')?>"><i class="fa fa-credit-card"></i> <?php _e('Manage Plan','noo')?></a></li>
 								<?php //endif; ?>
 								<li class="menu-item" ><a href="<?php echo Noo_Member::get_company_profile_url()?>"><i class="fa fa-users"></i> <?php _e('Company Profile','noo')?></a></li>
 							<?php elseif(Noo_Member::is_candidate()):?>
@@ -101,7 +101,7 @@
 								<?php do_action( 'noo-member-candidate-menu' ); ?>
 								<li class="divider" role="presentation"></li>
 								<?php if(jm_is_woo_resume_posting()) : ?>
-									<li class="menu-item" ><a href="<?php echo Noo_Member::get_endpoint_url('manage-plan')?>"><i class="fa fa-file-text-o"></i> <?php _e('Manage Plan','noo')?></a></li>
+									<li class="menu-item" ><a href="<?php echo Noo_Member::get_endpoint_url('manage-plan')?>"><i class="fa fa-credit-card"></i> <?php _e('Manage Plan','noo')?></a></li>
 								<?php endif; ?>
 								<li class="menu-item" ><a href="<?php echo Noo_Member::get_candidate_profile_url()?>"><i class="fa fa-user"></i> <?php _e('My Profile','noo')?></a></li>
 							<?php endif; ?>
