@@ -52,12 +52,26 @@ add_action( 'wp_enqueue_scripts', 'innuendo_styles' );
 
 // Allow employers to add media to their job descriptions
 
-function add_employer_caps() {
+function add_employer_capabilities() {
     // gets the author role
-    $role = get_role( 'employer' );
+    $employer = get_role( 'employer' );
 
-    $role->add_cap( 'upload_files' ); 
-    $role->add_cap( 'edit_others_posts' ); 
+    $employer->add_cap( 'upload_files' );
+    $employer->add_cap( 'edit_others_posts' ); 
 }
-add_action( 'admin_init', 'add_theme_caps');
+add_action( 'admin_init', 'add_employer_capabilities');
 
+// Limit media library access
+   
+add_filter( 'posts_where', 'limit_media_library_access' );
+
+function limit_media_library_access( $where ){
+    global $current_user;
+
+    if( is_user_logged_in() ){
+         if( isset( $_POST['action'] ) && ( $_POST['action'] == 'query-attachments' ) ){
+            $where .= ' AND post_author='.$current_user->data->ID;
+        }
+    }
+    return $where;
+} 
