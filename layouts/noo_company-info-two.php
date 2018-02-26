@@ -34,7 +34,7 @@ $all_socials = noo_get_social_fields();
         <?php
         $address = noo_get_post_meta($company_id, '_address', true);
         $location = jm_job_get_term_geolocation( $address );
-        if (!empty($address)):
+        if (!empty($location)):
             ?>
             <div class="noo-company-heading">Company Location</div>
             <p><?php echo esc_html($location['formatted_address']); ?></p>

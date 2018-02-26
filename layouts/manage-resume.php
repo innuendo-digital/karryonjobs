@@ -20,7 +20,7 @@ $viewable_resume_enabled = jm_viewable_resume_enabled();
 ?>
 <div class="member-manage">
 	<?php if($r->have_posts()):?>
-		<h3><?php echo sprintf( _n( "You've saved %s resume", "You've saved %s resumes", $r->found_posts, 'noo'), '<span class="text-primary">'.$r->found_posts.'</span>'); ?></h3>
+		<h3><?php echo sprintf( _n( "You've saved %s resumes", "You've saved %s resumes", $r->found_posts, 'noo'), '<span class="text-primary">'.$r->found_posts.'</span>'); ?></h3>
 		<?php if( $viewable_resume_enabled ) :
 			$max_viewable_resumes = absint( jm_get_resume_setting('max_viewable_resumes', 1) );
 			$viewable_resumes = absint( Noo_Resume::count_viewable_resumes( get_current_user_id() ) );
@@ -127,7 +127,7 @@ $viewable_resume_enabled = jm_viewable_resume_enabled();
 			</div>
 		</form>
 	<?php else:?>
-		<h4><?php echo __("You have no resume, why don't you start posting one.",'noo')?></h4>
+		<h4><?php echo __("You have no resumes, why don't you start posting one.",'noo')?></h4>
 		<p>
 			<a href="<?php echo Noo_Member::get_post_resume_url(); ?>" class="btn btn-primary"><?php _e('Post Resume', 'noo')?></a>
 		</p>
