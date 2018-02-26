@@ -39,11 +39,11 @@ if ( ! function_exists( 'jm_job_detail_bookmark_button' ) ) :
             <a class="bookmark-job-link bookmark-job <?php echo( jm_is_job_bookmarked( 0, $job_id ) ? 'bookmarked' : '' ); ?> pull-right"
                href="javascript:void(0);" data-toggle="tooltip" data-job-id="<?php echo esc_attr( $job_id ); ?>"
                data-action="noo_bookmark_job" data-security="<?php echo wp_create_nonce( 'noo-bookmark-job' ); ?>"
-               title="<?php _e( 'Bookmark Job', 'noo' ); ?>"><i class="fa fa-heart"></i></a>
+               title="<?php _e( 'Bookmark Job', 'noo' ); ?>"><i class="fa fa-star"></i></a>
 		<?php elseif ( ! Noo_Member::is_logged_in() ) : ?>
             <a class="bookmark-job-link member-login-link pull-right" href="<?php echo Noo_Member::get_login_url(); ?>"
                data-toggle="tooltip" data-login-message="<?php _e( 'Please login to Bookmark', 'noo' ); ?>"
-               title="<?php _e( 'Bookmark Job', 'noo' ); ?>"><i class="fa fa-heart"></i></a>
+               title="<?php _e( 'Bookmark Job', 'noo' ); ?>"><i class="fa fa-star"></i></a>
 		<?php endif;
 	}
 
@@ -67,7 +67,7 @@ if ( ! function_exists( 'jm_member_heading_job_bookmark' ) ) :
 		?>
         <li class="<?php echo esc_attr( Noo_Member::get_actice_enpoint_class( 'bookmark-job' ) ) ?>"><a
                     href="<?php echo Noo_Member::get_endpoint_url( 'bookmark-job' ) ?>"><i
-                        class="fa fa-heart"></i> <?php _e( 'Bookmarked Jobs', 'noo' ) ?></a></li>
+                        class="fa fa-star"></i> <?php _e( 'Bookmarked Jobs', 'noo' ) ?></a></li>
 		<?php
 	}
 
@@ -78,7 +78,7 @@ if ( ! function_exists( 'jm_member_menu_job_bookmark' ) ) :
 	function jm_member_menu_job_bookmark() {
 		?>
         <li class="menu-item"><a href="<?php echo Noo_Member::get_endpoint_url( 'bookmark-job' ) ?>"><i
-                        class="fa fa-heart"></i> <?php _e( 'Bookmarked Jobs', 'noo' ) ?></a></li>
+                        class="fa fa-star"></i> <?php _e( 'Bookmarked Jobs', 'noo' ) ?></a></li>
 		<?php
 	}
 
