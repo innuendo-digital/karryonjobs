@@ -10,7 +10,9 @@ $all_socials = noo_get_social_fields();
         $html = array();
 
         foreach ($fields as $field) {
-            if( $field['name'] == '_address' || $field['name'] == '_logo' || $field['name'] == '_cover_image' ) {
+            if( $field['name'] == '_address' || $field['name'] == '_logo' || $field['name'] == '_cover_image' 
+                /* CUSTOM ROLES THAT ARE NOT PUBLIC */
+                || $field['name'] == '_karryon_contact' || $field['name'] == '_karryon_contact_position' || $field['name'] == '_karryon_contact_email' ) {
                 continue;
             }
 
@@ -31,7 +33,15 @@ $all_socials = noo_get_social_fields();
         <?php endif; ?>
         <?php
         $address = noo_get_post_meta($company_id, '_address', true);
+        $location = jm_job_get_term_geolocation( $address );
         if (!empty($address)):
+            ?>
+            <div class="noo-company-heading">Company Location</div>
+            <p><?php echo esc_html($location['formatted_address']); ?></p>
+            <?php
+        endif; 
+        /* DISABLE GOOGLE MAPS
+            if (!empty($address)):
             wp_enqueue_script('google-map');
             wp_enqueue_script('google-map-custom');
 
@@ -50,7 +60,7 @@ $all_socials = noo_get_social_fields();
 
                 </div>
             </div>
-        <?php endif; endif; ?>
+        <?php endif; endif; */?>
         <?php
         // Job's social info
         $socials = jm_get_company_socials();
@@ -100,7 +110,7 @@ if (noo_get_option('noo_single_company_contact_form', true)):
                                                name="from_name"
                                                autofocus="" required=""
                                                placeholder="<?php _e('Enter Your Name', 'noo'); ?>"/>
-                                        <i class="fa fa-home"></i>
+                                        <i class="fa fa-user"></i>
                                     </span>
                             </div>
                             <div class="form-group">
@@ -126,7 +136,7 @@ if (noo_get_option('noo_single_company_contact_form', true)):
                             $term_page = Noo_Member::get_setting('term_page_id');
                             $term_of_use_link = !empty($term_page) ? esc_url(apply_filters('noo_term_url', get_permalink($term_page))) : '';
                             if (!empty($term_of_use_link)) :
-                                echo sprintf(__('You accepts our <a href="%s" >Terms and Conditions</a>', 'noo'), $term_of_use_link);
+                                echo sprintf(__('By sending this message you accept our <a href="%s" >Terms and Conditions</a>', 'noo'), $term_of_use_link);
                             endif;
                             ?>
                             <div class="form-actions">
