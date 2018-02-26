@@ -12,10 +12,10 @@
                 <h3 class="company-title" itemprop="name"><?php if( !is_singular( 'noo_company' ) ) : ?><a href="<?php echo get_permalink(); ?>"><?php endif; ?><?php echo esc_html( $company_name );?><?php if( !is_singular( 'noo_company' ) ) : ?></a><?php endif; ?></h3>
                 <?php $post_view = noo_get_post_views($post->ID); ?>
                 <div class="company-view-count">
-                    <?php
+                    <?php /* REMOVE FROM PUBLIC VIEW
                     if( $post_view > 0 ) {
                         echo '<span class="count">' . sprintf( _n( '%d view', '%d views', $post_view, 'noo' ), $post_view ) .'</span>';
-                    }
+                    } */
                     ?>
                 </div>
             </div>

@@ -1,4 +1,4 @@
-/**
+/*/**
 * Custom Innuendo Styles
 */
 
@@ -157,6 +157,10 @@ body .wpb_wrapper .company-list .company-item {
 
 /* 5.0 Single Job Page */
 
+.more-jobs ul li {
+	line-height: 1.5rem!important;
+}
+
 .job-action.job-action-mobile  {
 	margin-top: 0;
 	text-transform: uppercase;
@@ -182,3 +186,4 @@ body .wpb_wrapper .company-list .company-item {
 }
 
 /* 6.0 Job Feed / Company Feed */
+*/

@@ -4,6 +4,7 @@ $company = ( !empty( $company_id ) ? get_post($company_id)  : '' );
 $company_name = ( !empty( $company_id ) ? $company->post_title  : '' );
 $content = !empty( $company_id ) ? $company->post_content : '';
 ?>
+
 <div class="company-profile-form">
 	<div class="form-group row required-field">
 		<label for="company_name" class="col-sm-3 control-label"><?php _e('Company Name','noo')?></label>
