@@ -71,7 +71,7 @@
 								<?php echo esc_html($company_name); ?>
 							</a>
 							<p>
-								<i class="fa fa-briefcase"></i><span class="job-count"><?php echo $count > 0 ? sprintf( _n( '%s Job', '%s Jobs', $count, 'noo'), $count ) : __('No Job','noo'); ?></span>
+								<i class="fa fa-briefcase"></i><span class="job-count"><?php echo $count > 0 ? sprintf( _n( '%s Job', '%s Jobs', $count, 'noo'), $count ) : __('No Jobs','noo'); ?></span>
 							</p>
 						</div>
 					</div>
