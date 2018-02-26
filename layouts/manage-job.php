@@ -79,6 +79,7 @@ $user_email = $current_user->user_email;
 							<th class="hidden-xs"><?php _e('Featured?', 'noo'); ?></th>
 							<th class="hidden-xs hidden-sm"><?php _e('Location','noo')?></th>
 							<th class="hidden-xs"><?php _e('Closing','noo')?></th>
+							<th class="text-center"><?php _e('Views','noo')?></th>
 							<th class="text-center"><?php _e('Apps','noo')?></th>
 							<th class="text-center"><?php _e('Status','noo')?></th>
 							<th class="text-center"><?php _e('Action','noo')?></th>
@@ -141,6 +142,9 @@ $user_email = $current_user->user_email;
 										<?php else : ?>
 											<span class="text-center"><?php echo __('Equal to expired date', 'noo'); ?></span>
 										<?php endif; ?>
+									</td>
+									<td class="job-manage-views text-center">
+										<span><?php echo noo_get_post_views($post->ID); ?></span>
 									</td>
 									<td class="job-manage-app text-center">
 										<span>

@@ -28,7 +28,7 @@ if( ! empty($heading) ) :
 			<div class="page-heading-info">
 				<h1 class="page-title" <?php noo_page_title_schema(); ?>>
 					<?php echo esc_html($heading); ?>
-					<?php
+					<?php /* HIDE THIS FROM PUBLIC VIEW
 						if( is_singular('noo_job') || is_singular('noo_resume') || is_singular('noo_company') ) :
 							global $post;
 							$post_view = noo_get_post_views($post->ID);
@@ -41,7 +41,7 @@ if( ! empty($heading) ) :
 									echo '<span class="count applications">' . sprintf( _n( '%d application', '%d applications', $applications_count, 'noo' ), $applications_count ) .'</span>';
 								}
 							}
-						endif;
+						endif; */
 					?>
 				</h1>
 			</div>
