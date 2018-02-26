@@ -1,8 +1,8 @@
 <?php
-$approve_title = __('Congratulation! Your resume passed our application round.','noo');
-$reject_message = __("Hi,\nWe received your application for the job and found your skills and experience does not match our requirement. Thank you for your interest in our vacancy and good luck in your future career.\nBest regards.",'noo');
-$reject_title = __('Unfortunately! Your resume didn\'t pass our application round.','noo');
-$approve_message = __("Congratulation! \nWe received your application for the job and found your skills and experience matched our requirement. We will contact you for detail of the second selection round soon.\nBest regards.",'noo');
+$approve_title = __('','noo');
+$reject_message = __("",'noo');
+$reject_title = __('','noo');
+$approve_message = __("",'noo');
 ?>
 <div id="memberModalApplication" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="memberModalApplicationLabel" aria-hidden="true">
 	<div class="modal-dialog">

@@ -157,9 +157,22 @@ body .wpb_wrapper .company-list .company-item {
 
 /* 5.0 Single Job Page */
 
-.job-action.sidebar-action {
+.job-action.job-action-mobile  {
 	margin-top: 0;
 	text-transform: uppercase;
+}
+
+.company-info .btn-readmore {
+	background-image: linear-gradient(to bottom, transparent, #ebeeef);
+	position: relative;
+	margin-top: -9rem;
+	padding-top: 8rem;
+}
+
+.company-info-content[aria-expanded=true] + .btn-readmore {
+	background-image: none;
+	margin-top: none;
+	padding-top: none;
 }
 
 @media (max-width: 768px) {
