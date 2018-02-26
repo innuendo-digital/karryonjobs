@@ -84,7 +84,7 @@
 </div> <!-- /.main -->
 <?php if( $noo_single_jobs_layout != 'fullwidth' ) : ?>
 <div class="<?php noo_sidebar_class(); ?> hidden-print">
-	<div class="job-action hidden-print clearfix">
+	<div class="job-action hidden-print clearfix job-action-mobile">
 		<?php if( $is_expired ) : ?>
 			<div class="noo-messages noo-message-error">
 				<ul>
