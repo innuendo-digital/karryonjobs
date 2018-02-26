@@ -56,7 +56,7 @@
 
 				$ft = ('yes' == noo_get_post_meta( $post->ID, '_company_featured', '' )) ? 'featured-company' : '';
 				?>
-				<div class="col-sm-4 company-list-item">
+				<div class="col-sm-3 company-list-item">
 					<div class="company-item company-inner <?php echo esc_attr($ft); ?>">
 						<div class="company-item-thumbnail">
 							<a href="<?php the_permalink(); ?>">

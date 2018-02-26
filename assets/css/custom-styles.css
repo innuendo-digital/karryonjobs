@@ -115,6 +115,12 @@ html body {
 	}
 }
 
+.company-list .company-list-item .company-item-thumbnail img {
+	max-height: 160px;
+	display: table;
+	margin: 0 auto;
+}
+
 @media (min-width: 768px) and (max-width: 991px) {
 	.noo-job-search-wrapper .job-advanced-search .job-advanced-search-form .form-group {
 		display: block;

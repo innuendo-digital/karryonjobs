@@ -15762,9 +15762,9 @@ fieldset[disabled] .navbar-nav li.menu-item-post-btn > a:hover {
   color: #fff;
   z-index: 23;
 }
-.company-list .company-list-item:nth-child(3n+1) {
+/*.company-list .company-list-item:nth-child(3n+1) {
   clear: both;
-}
+}*/
 .job-careerjet-form {
   margin-bottom: 45px;
   text-align: center;
