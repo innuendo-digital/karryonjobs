@@ -24,7 +24,7 @@ $args = array(
 $r = new WP_Query($args);
 ob_start();
 do_action('noo_member_manage_application_before');
-$title_text = $r->found_posts ? sprintf( _n( "You've applied for %s job", "You've applied for %s jobs", $r->found_posts, 'noo'), $r->found_posts ) : __( "You haven't applied for any job", 'noo');
+$title_text = $r->found_posts ? sprintf( _n( "You've applied for %s job", "You've applied for %s jobs", $r->found_posts, 'noo'), $r->found_posts ) : __( "You haven't applied for any jobs", 'noo');
 ?>
 <div class="member-manage">
 	<h3><?php echo $title_text; ?></h3>

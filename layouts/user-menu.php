@@ -23,7 +23,7 @@
 				<?php endif; ?>
 				<li class="menu-item" ><a href="<?php echo Noo_Member::get_endpoint_url('manage-job-applied')?>" style="white-space: nowrap;"><i class="fa fa-newspaper-o"></i> <?php _e('Manage Applications','noo')?></a></li>
 				<?php if( Noo_Job_Alert::enable_job_alert() ) : ?>
-					<li class="menu-item" ><a href="<?php echo Noo_Member::get_endpoint_url('job-alert')?>"><i class="fa fa-bell-o"></i> <?php _e('Jobs Alert','noo')?></a></li>
+					<li class="menu-item" ><a href="<?php echo Noo_Member::get_endpoint_url('job-alert')?>"><i class="fa fa-bell-o"></i> <?php _e('Job Alerts','noo')?></a></li>
 				<?php endif; ?>
 				<?php do_action( 'noo-member-candidate-menu' ); ?>
 				<li class="divider" role="presentation"></li>

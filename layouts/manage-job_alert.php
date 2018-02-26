@@ -18,11 +18,11 @@ $r = new WP_Query($args);
 
 do_action('noo_member_manage_job_alert_before');
 
-$title_text = $r->found_posts ? sprintf( _n( "You've set up %s job alert", "You've set up %s job alerts", $r->found_posts, 'noo'), $r->found_posts, $current_user->user_email ) : __( 'You have no job alert', 'noo');
+$title_text = $r->found_posts ? sprintf( _n( "You've set up %s job alert", "You've set up %s job alerts", $r->found_posts, 'noo'), $r->found_posts, $current_user->user_email ) : __( 'You have no job alerts', 'noo');
 ?>
 <div class="member-manage">
 	<h3><?php echo $title_text; ?></h3>
-	<em><?php echo sprintf( __( 'The emails will be sent to "%s"', 'noo' ), $current_user->user_email ); ?></em>
+	<em><?php echo sprintf( __( 'Job alert emails will be sent to "%s"', 'noo' ), $current_user->user_email ); ?></em>
 	<form method="post">
 		<div class="member-manage-toolbar top-toolbar hidden-xs clearfix">
 		</div>

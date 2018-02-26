@@ -26,9 +26,9 @@ do_action('noo_member_manage_bookmark_job_before');
 
 $title_text = '';
 if( !empty( $r->found_posts ) ) {
-	$title_text = sprintf( _n( "You've saved %s job", "You've saved %s jobs", $r->found_posts, 'noo'), $r->found_posts );
+	$title_text = sprintf( _n( "You've bookmarked %s job", "You've bookmarked %s jobs", $r->found_posts, 'noo'), $r->found_posts );
 } else {
-	$title_text = __( 'You have saved no job', 'noo' );
+	$title_text = __( 'You haven\'t bookmarked any jobs', 'noo' );
 }
 ?>
 <div class="member-manage">
