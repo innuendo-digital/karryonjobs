@@ -228,7 +228,7 @@ if( !function_exists( 'jm_the_job_meta' ) ) :
 						$html[] = '</span>';
 					}
 				} elseif( $field_id == 'job_date' ) {
-					$html[] = '<span class="job-date">';
+					$html[] = '<br /><span class="job-date">';
 					$html[] = '<time class="entry-date" datetime="' . esc_attr(get_the_date('c', $job_id)) . '">';
 					$html[] = '<i class="fa fa-calendar"></i>';
 					$schema = $args['schema'] ? ' itemprop="datePosted"' : '';
@@ -254,7 +254,7 @@ if( !function_exists( 'jm_the_job_meta' ) ) :
 					} else {
 						$closing_date = noo_get_post_meta($job_id, '_closing', '');
 						if( !empty( $closing_date ) ) {
-							$html[] = '<span class="job-date">';
+							$html[] = '<br /><span class="job-date">';
 							$html[] = '<time class="entry-date" datetime="' . esc_attr(get_the_date('c', $job_id)) . '">';
 							$html[] = '<i class="fa fa-calendar"></i>';
 							$html[] = '<span>';

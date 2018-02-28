@@ -8,7 +8,7 @@ if( ! empty($heading) ) :
     <?php if(is_singular('noo_company') && Noo_Company::get_layout() == 'two' ) : ?>
         <header class="noo-page-heading noo-page-heading-company-2" style="<?php echo ( !$noo_enable_parallax ) ? 'background: url(' . esc_url($heading_image) . ') no-repeat center center; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover;' : 'background: rgba(67, 67, 67, 0.55);'; ?>">
     <?php else: ?>
-        <header class="noo-page-heading" style="<?php echo ( !$noo_enable_parallax ) ? 'background: url(' . esc_url($heading_image) . ') no-repeat center center; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover;' : 'background: rgba(67, 67, 67, 0.55);'; ?>">
+        <header class="noo-page-heading" style="<?php echo ( !$noo_enable_parallax ) ? 'background: linear-gradient(rgba(38,38,38,0.6),rgba(38,38,38,0.6)), url(' . esc_url($heading_image) . ') no-repeat center center; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover;' : 'background: rgba(67, 67, 67, 0.55);'; ?>">
     <?php endif; ?>
 <?php else : ?>
 	<header class="noo-page-heading <?php echo strtolower(preg_replace('/\s+/','-',$sub_heading)); ?>">

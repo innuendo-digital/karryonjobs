@@ -23,7 +23,9 @@ $all_socials		= noo_get_social_fields();
 			$html = array();
 
 			foreach ($fields as $field) {
-				if( $field['name'] == '_logo' || $field['name'] == '_cover_image' ) continue;
+				if( $field['name'] == '_logo' || $field['name'] == '_cover_image' 
+					|| $field['name'] == '_karryon_contact' || $field['name'] == '_karryon_contact_position' 
+					|| $field['name'] == '_karryon_contact_email') continue;
 
 				$id = jm_company_custom_fields_name($field['name'],$field);
 				$value = noo_get_post_meta($company_id, $id, '');

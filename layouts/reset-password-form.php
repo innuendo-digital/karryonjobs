@@ -19,7 +19,7 @@
             <div class="form-group row required-field">
                 <label class="col-sm-3 control-label" for="password"><?php _e('New password','noo')?></label>
                 <div class="col-sm-9">
-                    <input type="text" required autofocus name="password" id="password" class="form-control" autocomplete="off">
+                    <input type="password" required autofocus name="password" id="password" class="form-control" autocomplete="off">
                 </div>
             </div>
             <div class="form-actions form-group text-center">
