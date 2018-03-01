@@ -155,7 +155,7 @@ body .wpb_wrapper .company-list .company-item {
 	padding-left: 15px;
 }
 
-/* 5.0 Single Job Page */
+/* 5.0 Single Job Page / Single Company Page */
 
 .more-jobs ul li {
 	line-height: 1.5rem!important;
@@ -183,7 +183,19 @@ body .wpb_wrapper .company-list .company-item {
 	.job-action-mobile {
 		display: none;
 	}
+
+	html body .noo-company.noo-company-style2 .noo-company-profile .noo-company-sumary .noo-company-avatar {
+		display: block;
+		float: none;
+		margin: 0 auto;
+	}
+
+	html body .noo-company .noo-company-profile .noo-company-sumary .noo-company-name {
+		text-align: center!important;
+		float: none!important;
+		display: block!important;
+		margin: 0!important;
+	}
 }
 
 /* 6.0 Job Feed / Company Feed */
-*/

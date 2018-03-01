@@ -20,9 +20,9 @@
                 </div>
             </div>
         </div>
+        <div class="clear"></div>
         <div class="<?php noo_main_class(); ?>">
             <div class="noo-company-content">
-                <div class="noo-company-heading"><?php _e('About the Company', 'noo'); ?></div>
                 <?php
                 $content = get_post_field( 'post_content', get_the_ID() );
                 $content = apply_filters('the_content', $content);
