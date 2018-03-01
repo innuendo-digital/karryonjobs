@@ -1,6 +1,6 @@
 <div class="noo-main noo-company noo-company-style2" role="main">
     <div class="noo-company-profile" itemscope itemtype="http://schema.org/Organization">
-        <div class="noo-company-sumary col-md-12">
+        <div class="noo-company-sumary col-xs-12">
             <?php
             $company_name		= get_post_field( 'post_title', get_the_ID() );
             $logo_company 		= Noo_Company::get_company_logo( get_the_ID() );
@@ -20,7 +20,6 @@
                 </div>
             </div>
         </div>
-        <div class="clear"></div>
         <div class="<?php noo_main_class(); ?>">
             <div class="noo-company-content">
                 <?php
