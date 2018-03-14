@@ -89,6 +89,10 @@ html body {
 
 /* 3.0 Landing Page */
 
+.noo-job-search-wrapper .chosen-container-multi .chosen-choices li.search-field input[type="text"], .noo-job-search-wrapper .job-advanced-search #search-keyword::placeholder {
+	color: #44494b;
+}
+
 .noo-job-search-wrapper .job-advanced-search {
 	background-color: rgba(255,255,255,0.8);
 	border-radius: 5px;
