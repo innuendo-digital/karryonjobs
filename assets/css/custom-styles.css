@@ -4,6 +4,11 @@
 
 /* 1.0 Site-wide styles */
 
+html body {
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
 .clear {
 	clear: both;
 }
