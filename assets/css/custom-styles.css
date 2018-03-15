@@ -17,6 +17,22 @@ html body {
 	letter-spacing: 0;
 }
 
+html body .company-header .company-featured img, 
+html body .loop-item-wrap .item-featured img, 
+html body .profile-avatar img, 
+html body .candidate-avatar img,
+html body .member-heading-avatar img {
+	border-radius: 5px;
+}
+
+html body .noo-page-heading .page-sub-heading-info {
+	opacity: 1;
+}
+
+html body button.close {
+	font-family: "Exo", sans-serif;
+}
+
 /* Front End media uploader styling fix */
 
 .screen-reader-text {
@@ -162,6 +178,16 @@ body .wpb_wrapper .company-list .company-item {
 .noo-pricing-table .noo-pricing-column .pricing-content .pricing-info .short-desc ul {
 	list-style: disc;
 	padding-left: 15px;
+}
+
+/* Payment pages */
+
+html body .woocommerce .woocommerce-info {
+	border-top: 3px solid #ff0080;
+}
+
+html body .woocommerce .woocommerce-info:before {
+	color: #ff0080;
 }
 
 /* 5.0 Single Job Page / Single Company Page */
