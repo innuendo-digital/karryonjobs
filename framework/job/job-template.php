@@ -230,7 +230,7 @@ if( !function_exists( 'jm_the_job_meta' ) ) :
 				} elseif( $field_id == 'job_date' ) {
 					$html[] = '<br /><span class="job-date">';
 					$html[] = '<time class="entry-date" datetime="' . esc_attr(get_the_date('c', $job_id)) . '">';
-					$html[] = '<i class="fa fa-calendar"></i>';
+					$html[] = '<i class="fa fa-calendar"></i>Posted ';
 					$schema = $args['schema'] ? ' itemprop="datePosted"' : '';
 					$html[] = '<span' . $schema . '>';
 					$html[] = esc_html(get_the_date(get_option('date_format'), $job_id));
@@ -242,7 +242,7 @@ if( !function_exists( 'jm_the_job_meta' ) ) :
 						$closing_date = is_numeric( $closing_date ) ? $closing_date : strtotime( $closing_date );
 						if( !empty( $closing_date ) ) {
 							$html[] = '<span>';
-							$html[] = $separator . esc_html( date_i18n( get_option('date_format'), $closing_date ) );
+							$html[] = $separator .' Applications close ' . esc_html( date_i18n( get_option('date_format'), $closing_date ) );
 							$html[] = '</span>';
 						}
 					}
@@ -256,7 +256,7 @@ if( !function_exists( 'jm_the_job_meta' ) ) :
 						if( !empty( $closing_date ) ) {
 							$html[] = '<br /><span class="job-date">';
 							$html[] = '<time class="entry-date" datetime="' . esc_attr(get_the_date('c', $job_id)) . '">';
-							$html[] = '<i class="fa fa-calendar"></i>';
+							$html[] = '<i class="fa fa-calendar"></i>Posted';
 							$html[] = '<span>';
 							$closing_date = is_numeric( $closing_date ) ? $closing_date : strtotime( $closing_date );
 							$html[] = esc_html( date_i18n( get_option('date_format'), $closing_date ) );
