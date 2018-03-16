@@ -1470,7 +1470,7 @@ if (!function_exists('noo_wp_editor')):
 	{
 		$configs = array(
 			'editor_class' => 'noo-editor',
-			'media_buttons' => true
+			'media_buttons' => false
 		);
 		if (!empty($editor_name)){
 			$configs['textarea_name'] = $editor_name;
