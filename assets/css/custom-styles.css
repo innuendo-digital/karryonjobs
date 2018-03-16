@@ -190,6 +190,83 @@ html body .woocommerce .woocommerce-info:before {
 	color: #ff0080;
 }
 
+/* fixing upgrade button spacing */
+.member-plan .member-plan-choose a {
+	margin-bottom: 1rem;
+}
+
+/* Fixing appearance of select inputs */
+html body .select2-container--default .select2-selection--single {
+	height: 37px;
+	border: 1px solid #ccc;
+	outline: none;
+}
+
+html body .select2-container--default .select2-selection--single .select2-selection__rendered {
+	line-height: 37px;
+}
+
+html body .select2-container--default .select2-selection--single .select2-selection__arrow {
+	height: 37px;
+}
+
+/* Fixing appearance of order pages */
+
+html body #order_review .woocommerce-checkout-review-order-table, html body .woocommerce-table.woocommerce-table--order-details.shop_table.order_details {
+	font-family: 'Exo', sans-serif;
+}
+
+a.about_paypal {
+	padding-left: 1rem;
+	color: #ff0080;
+	text-decoration: underline;
+}
+
+html body .woocommerce #payment ul.payment_methods {
+	padding: 0;
+	border-bottom: none;
+}
+
+html body .woocommerce #payment div.form-row {
+	border-top: none;
+}
+
+html body .woocommerce #payment div.payment_box {
+	width: 100%;
+}
+
+html body .woocommerce #payment #place_order {
+	background-color: #ff0080;
+}
+
+html body .woocommerce #payment #place_order:hover{
+	background-color: #dc006e;
+}
+
+html body .woocommerce form .form-row button.button {
+	background-color: #ff0080;
+	font-family: inherit;
+	color: #fff;
+}
+
+html body .woocommerce form .form-row button.button:hover {
+	background-color: #dc006e;
+}
+
+html body .woocommerce .woocommerce-order-overview.order_details {
+	margin: 1rem 0;
+	padding: 2rem;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+}
+
+html body .shop_table.woocommerce-checkout-review-order-table tr td:nth-child(2), 
+html body .shop_table.woocommerce-checkout-review-order-table .product-total,
+html body .woocommerce-table.woocommerce-table--order-details.shop_table.order_details tr td:nth-child(2),
+html body .woocommerce-table.woocommerce-table--order-details.shop_table.order_details .product-total {
+	text-align: right;
+}
+
 /* 5.0 Single Job Page / Single Company Page */
 
 .more-jobs ul li {
