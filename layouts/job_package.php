@@ -71,11 +71,7 @@
 				                <?php else : ?>
 				                	<li class="noo-li-icon"><i class="fa fa-times-circle-o not-good"></i> <?php echo __('No job posting', 'noo'); ?></li>
 				                <?php endif; ?>
-				                <?php if( $featured_limit > 0 ) : ?>
-				                	<li class="noo-li-icon"><i class="fa fa-check-circle"></i> <?php echo $job_featured_text; ?></li>
-				                <?php else : ?>
-				                	<li class="noo-li-icon"><i class="fa fa-times-circle-o not-good"></i> <?php echo __('No featured job', 'noo'); ?></li>
-				                <?php endif; ?>
+				                
 				                <?php if( $is_unlimited || $job_limit > 0 ) : ?>
 				                	<li class="noo-li-icon"><i class="fa fa-check-circle"></i> <?php echo $job_duration_text; ?></li>
 				                <?php endif; ?>
@@ -119,11 +115,7 @@
 										                <?php else : ?>
 										                	<li class="noo-li-icon"><i class="fa fa-times-circle-o not-good"></i> <?php echo __('No job posting', 'noo');?></li>
 										                <?php endif; ?>
-										                <?php if( $featured_limit > 0 ) : ?>
-										                	<li class="noo-li-icon"><i class="fa fa-check-circle"></i> <?php echo $job_featured_text; ?></li>
-										                <?php else : ?>
-										                	<li class="noo-li-icon"><i class="fa fa-times-circle-o not-good"></i> <?php echo __('No featured job', 'noo');?></li>
-										                <?php endif; ?>
+										                
 										                <?php if( $is_unlimited || $job_limit > 0 ) : ?>
 										                	<li class="noo-li-icon"><i class="fa fa-check-circle"></i> <?php echo $job_duration_text; ?></li>
 										                <?php endif; ?>

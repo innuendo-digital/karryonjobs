@@ -280,6 +280,10 @@ html body .noo-pricing-table.noo-col-3 .noo-pricing-column {
 	border-radius: 5px;
 }
 
+.pricing-info .noo-li-icon:has(i){
+	display: none!important;
+}
+
 /* 5.0 Single Job Page / Single Company Page */
 
 .more-jobs ul li {
