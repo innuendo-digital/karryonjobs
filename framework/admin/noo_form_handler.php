@@ -958,7 +958,7 @@ if ( ! class_exists( 'Noo_Form_Handler' ) ) :
 			unset( $_POST[ 'post_status' ] );
 			$job_id = self::save_job( $_POST );
 			if ( is_wp_error( $job_id ) ) {
-				noo_message_add( __( 'There\'s a problem when you editing this Job, please try again or contact the Administrator', 'noo' ), 'error' );
+				noo_message_add( __( 'There\'s was problem editing this Job, please try again or contact the KARRYON', 'noo' ), 'error' );
 				wp_safe_redirect( Noo_Member::get_member_page_url() );
 			} else {
 				if ( isset( $_POST[ 'is_edit' ] ) ) {
@@ -966,7 +966,7 @@ if ( ! class_exists( 'Noo_Form_Handler' ) ) :
 				} else {
 					noo_message_add( __( 'Job saved', 'noo' ) );
 				}
-				wp_safe_redirect( Noo_Member::get_edit_job_url( $job_id ) );
+				wp_safe_redirect( Noo_Member::get_endpoint_url('manage-job') );
 			}
 			exit();
 		}

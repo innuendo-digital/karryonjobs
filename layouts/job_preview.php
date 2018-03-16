@@ -12,7 +12,7 @@ $back_location_query=array(
 ?>
 <div class="jpanel jpanel-job-preview">
 	<div class="jpanel-title">
-		<h3><?php _e('You have almost finished. Preview and submit your job for approval','noo')?></h3>
+		<h3><?php _e('You\'ve almost finished. Preview and submit your job!','noo')?></h3>
 	</div>
 	<div class="jpanel-body">
 		<div class="job-preview">

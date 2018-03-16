@@ -30,7 +30,7 @@ $user_email = $current_user->user_email;
 <div class="member-manage">
 	<?php ?>
 		<?php if( $r->found_posts ) : ?>
-			<h3><?php echo sprintf( _n( "We found %s job", "We found %s jobs", $r->found_posts, 'noo'), $r->found_posts ); ?></h3>
+			<h3><?php echo sprintf( _n( "%s job", "%s jobs", $r->found_posts, 'noo'), $r->found_posts ); ?></h3>
 		<?php else : ?>
 			<h3><?php echo __("No jobs found",'noo')?></h3>
 		<?php endif; ?>

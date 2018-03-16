@@ -46,7 +46,7 @@ switch ($action){
 			if( jm_get_job_posting_remain() == 0 ) {
 				$package_info = jm_get_job_posting_info();
 				if( isset( $package_info['product_id'] ) && !empty( $package_info['product_id'] ) ) {
-					noo_message_add(__('You can not add job','noo'),'error');
+					noo_message_add(__('Your package has reached its job limit. You\'ll need to upgrade your package to post a new job.','noo'),'error');
 					jm_force_redirect(jm_force_redirect(Noo_Member::get_endpoint_url('manage-plan')));
 				}
 			}
@@ -81,7 +81,7 @@ switch ($action){
 	break;
 	case 'post_job':
 		if( !jm_can_post_job() ) {
-			noo_message_add(__('You can not add job','noo'),'error');
+			noo_message_add(__('You are not able to post a job at this time','noo'),'error');
 			if(jm_is_woo_job_posting() && Noo_Member::is_employer()){
                 jm_force_redirect(Noo_Member::get_endpoint_url('manage-plan'));
 			}else{
