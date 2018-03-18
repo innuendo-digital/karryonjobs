@@ -4,6 +4,10 @@
 
 /* 1.0 Site-wide styles */
 
+.pink {
+	color: #ff0080;
+}
+
 html body {
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
@@ -33,6 +37,61 @@ html body button.close {
 	font-family: "Exo", sans-serif;
 }
 
+/* Footer Sign up form styles */
+
+html body .colophon.wigetized > .container-boxed > div > div {
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+html body .wigetized .widget .widget-title {
+	color: #ff0080;
+	letter-spacing: 1px;
+	font-size: 18px;
+	padding-bottom: 0;
+}
+
+html body .colophon.wigetized .widget {
+	color: #fff;
+}
+
+html body .colophon.wigetized .widget .js-cm-form p {
+	display: inline-block;
+	padding-right: 1rem;
+	color: #262626;
+}
+
+html body .colophon.wigetized .widget .js-cm-form p label {
+	color: #fff;
+}
+
+html body .colophon.wigetized .widget .js-cm-form p input {
+	outline: none;
+}
+
+html body .colophon.wigetized .widget .js-cm-form .js-cm-submit-button {
+	color: #fff;
+	background-color: #ff0080;
+	border: 3px solid #ff0080; 
+	border-radius: 5px;
+	transition: all 0.15s ease;
+}
+
+html body .colophon.wigetized .widget .js-cm-form .js-cm-submit-button:hover {
+	background-color: #dc006e;
+	border-color: #dc006e;
+}
+
+@media (max-width: 660px){
+	html body .colophon.wigetized .widget .js-cm-form p {
+		display: block;
+		padding-right: 0;
+	}
+
+	html body .colophon.wigetized .widget .js-cm-form p input {
+		width: 100%;
+	}
+}
 
 /* 2.0 Navigation Bar / Header */
 
