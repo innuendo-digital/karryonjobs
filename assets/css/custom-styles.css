@@ -33,18 +33,6 @@ html body button.close {
 	font-family: "Exo", sans-serif;
 }
 
-/* Front End media uploader styling fix */
-
-.screen-reader-text {
-	position: absolute;
-	width: 1px;
-	height: 1px;
-	margin: -1px;
-	padding: 0;
-	overflow: hidden;
-	clip: rect(0, 0, 0, 0);
-	border: 0;
-}
 
 /* 2.0 Navigation Bar / Header */
 
