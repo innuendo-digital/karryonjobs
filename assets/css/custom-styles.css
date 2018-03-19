@@ -215,6 +215,10 @@ body .wpb_wrapper .company-list .company-item {
 	border: 1px solid #f2efef;
 }
 
+html body .jobs article.noo_job:hover {
+	cursor: inherit;
+}
+
 /* 4.0 Employer / Candidate Dashboard */
 
 .jpanel-body .account-actions {

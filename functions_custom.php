@@ -49,3 +49,13 @@ function innuendo_styles() {
 	wp_enqueue_style( 'innuendo_styles', NOO_ASSETS_URI . '/css/custom-styles.css');
 } 
 add_action( 'wp_enqueue_scripts', 'innuendo_styles' );
+
+// Change Woocommerce tax wording
+
+add_filter( 'woocommerce_countries_inc_tax_or_vat', function () {
+  return __( '(incl. GST)', 'woocommerce' );
+});
+
+add_filter( 'woocommerce_countries_tax_or_vat', function () {
+  return __( 'GST', 'woocommerce' );
+});
