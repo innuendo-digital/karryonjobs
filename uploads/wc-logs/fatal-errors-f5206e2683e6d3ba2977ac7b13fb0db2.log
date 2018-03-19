@@ -1,0 +1,228 @@
+2018-02-11T22:57:08+00:00 CRITICAL Uncaught Error: Call to undefined function request_filesystem_credentials() in /Applications/MAMP/htdocs/KarryOn_Jobs/wp-admin/includes/class-wp-upgrader-skin.php:93
+Stack trace:
+#0 /Applications/MAMP/htdocs/KarryOn_Jobs/wp-admin/includes/class-automatic-upgrader-skin.php(47): WP_Upgrader_Skin->request_filesystem_credentials(false, '/Applications/M...', true)
+#1 /Applications/MAMP/htdocs/KarryOn_Jobs/wp-admin/includes/class-wp-automatic-updater.php(144): Automatic_Upgrader_Skin->request_filesystem_credentials(false, '/Applications/M...', true)
+#2 /Applications/MAMP/htdocs/KarryOn_Jobs/wp-admin/includes/update.php(85): WP_Automatic_Updater->should_update('core', Object(stdClass), '/Applications/M...')
+#3 /Applications/MAMP/htdocs/KarryOn_Jobs/wp-includes/update.php(215): find_core_auto_update()
+#4 /Applications/MAMP/htdocs/KarryOn_Jobs/wp-includes/class-wp-hook.php(286): wp_version_check()
+#5 /Applications/MAMP/htdocs/KarryOn_Jobs/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#6 /Applic
+
+2018-02-12T00:10:41+00:00 CRITICAL Uncaught Error: Call to undefined function request_filesystem_credentials() in /Applications/MAMP/htdocs/KarryOn_Jobs/wp-admin/includes/class-wp-upgrader-skin.php:93
+Stack trace:
+#0 /Applications/MAMP/htdocs/KarryOn_Jobs/wp-admin/includes/class-automatic-upgrader-skin.php(47): WP_Upgrader_Skin->request_filesystem_credentials(false, '/Applications/M...', true)
+#1 /Applications/MAMP/htdocs/KarryOn_Jobs/wp-admin/includes/class-wp-automatic-updater.php(144): Automatic_Upgrader_Skin->request_filesystem_credentials(false, '/Applications/M...', true)
+#2 /Applications/MAMP/htdocs/KarryOn_Jobs/wp-admin/includes/update.php(85): WP_Automatic_Updater->should_update('core', Object(stdClass), '/Applications/M...')
+#3 /Applications/MAMP/htdocs/KarryOn_Jobs/wp-includes/update.php(215): find_core_auto_update()
+#4 /Applications/MAMP/htdocs/KarryOn_Jobs/wp-includes/class-wp-hook.php(286): wp_version_check()
+#5 /Applications/MAMP/htdocs/KarryOn_Jobs/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#6 /Applic
+
+2018-02-12T22:48:24+00:00 CRITICAL Uncaught Error: Call to undefined function request_filesystem_credentials() in /Applications/MAMP/htdocs/KarryOn_Jobs/wp-admin/includes/class-wp-upgrader-skin.php:93
+Stack trace:
+#0 /Applications/MAMP/htdocs/KarryOn_Jobs/wp-admin/includes/class-automatic-upgrader-skin.php(47): WP_Upgrader_Skin->request_filesystem_credentials(false, '/Applications/M...', true)
+#1 /Applications/MAMP/htdocs/KarryOn_Jobs/wp-admin/includes/class-wp-automatic-updater.php(144): Automatic_Upgrader_Skin->request_filesystem_credentials(false, '/Applications/M...', true)
+#2 /Applications/MAMP/htdocs/KarryOn_Jobs/wp-admin/includes/update.php(85): WP_Automatic_Updater->should_update('core', Object(stdClass), '/Applications/M...')
+#3 /Applications/MAMP/htdocs/KarryOn_Jobs/wp-includes/update.php(215): find_core_auto_update()
+#4 /Applications/MAMP/htdocs/KarryOn_Jobs/wp-includes/class-wp-hook.php(286): wp_version_check()
+#5 /Applications/MAMP/htdocs/KarryOn_Jobs/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#6 /Applic
+
+2018-02-13T00:10:37+00:00 CRITICAL Uncaught Error: Call to undefined function request_filesystem_credentials() in /Applications/MAMP/htdocs/KarryOn_Jobs/wp-admin/includes/class-wp-upgrader-skin.php:93
+Stack trace:
+#0 /Applications/MAMP/htdocs/KarryOn_Jobs/wp-admin/includes/class-automatic-upgrader-skin.php(47): WP_Upgrader_Skin->request_filesystem_credentials(false, '/Applications/M...', true)
+#1 /Applications/MAMP/htdocs/KarryOn_Jobs/wp-admin/includes/class-wp-automatic-updater.php(144): Automatic_Upgrader_Skin->request_filesystem_credentials(false, '/Applications/M...', true)
+#2 /Applications/MAMP/htdocs/KarryOn_Jobs/wp-admin/includes/update.php(85): WP_Automatic_Updater->should_update('core', Object(stdClass), '/Applications/M...')
+#3 /Applications/MAMP/htdocs/KarryOn_Jobs/wp-includes/update.php(215): find_core_auto_update()
+#4 /Applications/MAMP/htdocs/KarryOn_Jobs/wp-includes/class-wp-hook.php(286): wp_version_check()
+#5 /Applications/MAMP/htdocs/KarryOn_Jobs/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#6 /Applic
+
+2018-02-15T22:23:48+00:00 CRITICAL Uncaught Error: Call to undefined function request_filesystem_credentials() in /Applications/MAMP/htdocs/KarryOn_Jobs/wp-admin/includes/class-wp-upgrader-skin.php:93
+Stack trace:
+#0 /Applications/MAMP/htdocs/KarryOn_Jobs/wp-admin/includes/class-automatic-upgrader-skin.php(47): WP_Upgrader_Skin->request_filesystem_credentials(false, '/Applications/M...', true)
+#1 /Applications/MAMP/htdocs/KarryOn_Jobs/wp-admin/includes/class-wp-automatic-updater.php(144): Automatic_Upgrader_Skin->request_filesystem_credentials(false, '/Applications/M...', true)
+#2 /Applications/MAMP/htdocs/KarryOn_Jobs/wp-admin/includes/update.php(85): WP_Automatic_Updater->should_update('core', Object(stdClass), '/Applications/M...')
+#3 /Applications/MAMP/htdocs/KarryOn_Jobs/wp-includes/update.php(215): find_core_auto_update()
+#4 /Applications/MAMP/htdocs/KarryOn_Jobs/wp-includes/class-wp-hook.php(286): wp_version_check()
+#5 /Applications/MAMP/htdocs/KarryOn_Jobs/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#6 /Applic
+
+2018-02-16T00:13:04+00:00 CRITICAL Uncaught Error: Call to undefined function request_filesystem_credentials() in /Applications/MAMP/htdocs/KarryOn_Jobs/wp-admin/includes/class-wp-upgrader-skin.php:93
+Stack trace:
+#0 /Applications/MAMP/htdocs/KarryOn_Jobs/wp-admin/includes/class-automatic-upgrader-skin.php(47): WP_Upgrader_Skin->request_filesystem_credentials(false, '/Applications/M...', true)
+#1 /Applications/MAMP/htdocs/KarryOn_Jobs/wp-admin/includes/class-wp-automatic-updater.php(144): Automatic_Upgrader_Skin->request_filesystem_credentials(false, '/Applications/M...', true)
+#2 /Applications/MAMP/htdocs/KarryOn_Jobs/wp-admin/includes/update.php(85): WP_Automatic_Updater->should_update('core', Object(stdClass), '/Applications/M...')
+#3 /Applications/MAMP/htdocs/KarryOn_Jobs/wp-includes/update.php(215): find_core_auto_update()
+#4 /Applications/MAMP/htdocs/KarryOn_Jobs/wp-includes/class-wp-hook.php(286): wp_version_check()
+#5 /Applications/MAMP/htdocs/KarryOn_Jobs/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#6 /Applic
+
+2018-02-18T21:44:05+00:00 CRITICAL Uncaught Error: Call to undefined function request_filesystem_credentials() in /Applications/MAMP/htdocs/KarryOn_Jobs/wp-admin/includes/class-wp-upgrader-skin.php:93
+Stack trace:
+#0 /Applications/MAMP/htdocs/KarryOn_Jobs/wp-admin/includes/class-automatic-upgrader-skin.php(47): WP_Upgrader_Skin->request_filesystem_credentials(false, '/Applications/M...', true)
+#1 /Applications/MAMP/htdocs/KarryOn_Jobs/wp-admin/includes/class-wp-automatic-updater.php(144): Automatic_Upgrader_Skin->request_filesystem_credentials(false, '/Applications/M...', true)
+#2 /Applications/MAMP/htdocs/KarryOn_Jobs/wp-admin/includes/update.php(85): WP_Automatic_Updater->should_update('core', Object(stdClass), '/Applications/M...')
+#3 /Applications/MAMP/htdocs/KarryOn_Jobs/wp-includes/update.php(215): find_core_auto_update()
+#4 /Applications/MAMP/htdocs/KarryOn_Jobs/wp-includes/class-wp-hook.php(286): wp_version_check()
+#5 /Applications/MAMP/htdocs/KarryOn_Jobs/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#6 /Applic
+
+2018-02-19T00:11:53+00:00 CRITICAL Uncaught Error: Call to undefined function request_filesystem_credentials() in /Applications/MAMP/htdocs/KarryOn_Jobs/wp-admin/includes/class-wp-upgrader-skin.php:93
+Stack trace:
+#0 /Applications/MAMP/htdocs/KarryOn_Jobs/wp-admin/includes/class-automatic-upgrader-skin.php(47): WP_Upgrader_Skin->request_filesystem_credentials(false, '/Applications/M...', true)
+#1 /Applications/MAMP/htdocs/KarryOn_Jobs/wp-admin/includes/class-wp-automatic-updater.php(144): Automatic_Upgrader_Skin->request_filesystem_credentials(false, '/Applications/M...', true)
+#2 /Applications/MAMP/htdocs/KarryOn_Jobs/wp-admin/includes/update.php(85): WP_Automatic_Updater->should_update('core', Object(stdClass), '/Applications/M...')
+#3 /Applications/MAMP/htdocs/KarryOn_Jobs/wp-includes/update.php(215): find_core_auto_update()
+#4 /Applications/MAMP/htdocs/KarryOn_Jobs/wp-includes/class-wp-hook.php(286): wp_version_check()
+#5 /Applications/MAMP/htdocs/KarryOn_Jobs/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#6 /Applic
+
+2018-02-19T22:26:37+00:00 CRITICAL Uncaught Error: Call to undefined function request_filesystem_credentials() in /Applications/MAMP/htdocs/KarryOn_Jobs/wp-admin/includes/class-wp-upgrader-skin.php:93
+Stack trace:
+#0 /Applications/MAMP/htdocs/KarryOn_Jobs/wp-admin/includes/class-automatic-upgrader-skin.php(47): WP_Upgrader_Skin->request_filesystem_credentials(false, '/Applications/M...', true)
+#1 /Applications/MAMP/htdocs/KarryOn_Jobs/wp-admin/includes/class-wp-automatic-updater.php(144): Automatic_Upgrader_Skin->request_filesystem_credentials(false, '/Applications/M...', true)
+#2 /Applications/MAMP/htdocs/KarryOn_Jobs/wp-admin/includes/update.php(85): WP_Automatic_Updater->should_update('core', Object(stdClass), '/Applications/M...')
+#3 /Applications/MAMP/htdocs/KarryOn_Jobs/wp-includes/update.php(215): find_core_auto_update()
+#4 /Applications/MAMP/htdocs/KarryOn_Jobs/wp-includes/class-wp-hook.php(286): wp_version_check()
+#5 /Applications/MAMP/htdocs/KarryOn_Jobs/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#6 /Applic
+
+2018-02-20T00:12:44+00:00 CRITICAL Uncaught Error: Call to undefined function request_filesystem_credentials() in /Applications/MAMP/htdocs/KarryOn_Jobs/wp-admin/includes/class-wp-upgrader-skin.php:93
+Stack trace:
+#0 /Applications/MAMP/htdocs/KarryOn_Jobs/wp-admin/includes/class-automatic-upgrader-skin.php(47): WP_Upgrader_Skin->request_filesystem_credentials(false, '/Applications/M...', true)
+#1 /Applications/MAMP/htdocs/KarryOn_Jobs/wp-admin/includes/class-wp-automatic-updater.php(144): Automatic_Upgrader_Skin->request_filesystem_credentials(false, '/Applications/M...', true)
+#2 /Applications/MAMP/htdocs/KarryOn_Jobs/wp-admin/includes/update.php(85): WP_Automatic_Updater->should_update('core', Object(stdClass), '/Applications/M...')
+#3 /Applications/MAMP/htdocs/KarryOn_Jobs/wp-includes/update.php(215): find_core_auto_update()
+#4 /Applications/MAMP/htdocs/KarryOn_Jobs/wp-includes/class-wp-hook.php(286): wp_version_check()
+#5 /Applications/MAMP/htdocs/KarryOn_Jobs/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#6 /Applic
+
+2018-02-20T05:21:58+00:00 CRITICAL Cannot redeclare restrict_media_library_access() (previously declared in /Applications/MAMP/htdocs/KarryOn_Jobs/wp-content/themes/noo-jobmonster/framework/functions/noo-utilities.php:1251)
+
+2018-02-20T05:22:12+00:00 CRITICAL Cannot redeclare restrict_media_library_access() (previously declared in /Applications/MAMP/htdocs/KarryOn_Jobs/wp-content/themes/noo-jobmonster/framework/functions/noo-utilities.php:1251)
+
+2018-02-20T05:22:28+00:00 CRITICAL Cannot redeclare restrict_media_library_access() (previously declared in /Applications/MAMP/htdocs/KarryOn_Jobs/wp-content/themes/noo-jobmonster/framework/functions/noo-utilities.php:1251)
+
+2018-02-20T05:22:28+00:00 CRITICAL Cannot redeclare restrict_media_library_access() (previously declared in /Applications/MAMP/htdocs/KarryOn_Jobs/wp-content/themes/noo-jobmonster/framework/functions/noo-utilities.php:1251)
+
+2018-02-21T03:20:50+00:00 CRITICAL Uncaught Error: Call to undefined function request_filesystem_credentials() in /Applications/MAMP/htdocs/KarryOn_Jobs/wp-admin/includes/class-wp-upgrader-skin.php:93
+Stack trace:
+#0 /Applications/MAMP/htdocs/KarryOn_Jobs/wp-admin/includes/class-automatic-upgrader-skin.php(47): WP_Upgrader_Skin->request_filesystem_credentials(false, '/Applications/M...', true)
+#1 /Applications/MAMP/htdocs/KarryOn_Jobs/wp-admin/includes/class-wp-automatic-updater.php(144): Automatic_Upgrader_Skin->request_filesystem_credentials(false, '/Applications/M...', true)
+#2 /Applications/MAMP/htdocs/KarryOn_Jobs/wp-admin/includes/update.php(85): WP_Automatic_Updater->should_update('core', Object(stdClass), '/Applications/M...')
+#3 /Applications/MAMP/htdocs/KarryOn_Jobs/wp-includes/update.php(215): find_core_auto_update()
+#4 /Applications/MAMP/htdocs/KarryOn_Jobs/wp-includes/class-wp-hook.php(286): wp_version_check()
+#5 /Applications/MAMP/htdocs/KarryOn_Jobs/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#6 /Applic
+
+2018-02-21T03:39:13+00:00 CRITICAL Uncaught Error: Call to undefined method Noo_Company::get_the_ID() in /Applications/MAMP/htdocs/KarryOn_Jobs/wp-content/themes/noo-jobmonster/layouts/noo_company-two.php:25
+Stack trace:
+#0 /Applications/MAMP/htdocs/KarryOn_Jobs/wp-includes/template.php(690): require()
+#1 /Applications/MAMP/htdocs/KarryOn_Jobs/wp-includes/template.php(647): load_template('/Applications/M...', false)
+#2 /Applications/MAMP/htdocs/KarryOn_Jobs/wp-includes/general-template.php(155): locate_template(Array, true, false)
+#3 /Applications/MAMP/htdocs/KarryOn_Jobs/wp-content/themes/noo-jobmonster/framework/functions/noo-theme.php(20): get_template_part('layouts/noo_com...', 'two')
+#4 /Applications/MAMP/htdocs/KarryOn_Jobs/wp-content/themes/noo-jobmonster/single-noo_company.php(5): noo_get_layout('noo_company', 'two')
+#5 /Applications/MAMP/htdocs/KarryOn_Jobs/wp-includes/template-loader.php(74): include('/Applications/M...')
+#6 /Applications/MAMP/htdocs/KarryOn_Jobs/wp-blog-header.php(19): require_once('/Applications/M...')
+#7 /Applicat
+
+2018-02-21T03:39:25+00:00 CRITICAL Uncaught Error: Undefined class constant 'get_the_ID' in /Applications/MAMP/htdocs/KarryOn_Jobs/wp-content/themes/noo-jobmonster/layouts/noo_company-two.php:25
+Stack trace:
+#0 /Applications/MAMP/htdocs/KarryOn_Jobs/wp-includes/template.php(690): require()
+#1 /Applications/MAMP/htdocs/KarryOn_Jobs/wp-includes/template.php(647): load_template('/Applications/M...', false)
+#2 /Applications/MAMP/htdocs/KarryOn_Jobs/wp-includes/general-template.php(155): locate_template(Array, true, false)
+#3 /Applications/MAMP/htdocs/KarryOn_Jobs/wp-content/themes/noo-jobmonster/framework/functions/noo-theme.php(20): get_template_part('layouts/noo_com...', 'two')
+#4 /Applications/MAMP/htdocs/KarryOn_Jobs/wp-content/themes/noo-jobmonster/single-noo_company.php(5): noo_get_layout('noo_company', 'two')
+#5 /Applications/MAMP/htdocs/KarryOn_Jobs/wp-includes/template-loader.php(74): include('/Applications/M...')
+#6 /Applications/MAMP/htdocs/KarryOn_Jobs/wp-blog-header.php(19): require_once('/Applications/M...')
+#7 /Applications/MAMP/htd
+
+2018-02-21T23:31:03+00:00 CRITICAL Uncaught Error: Call to undefined function request_filesystem_credentials() in /Applications/MAMP/htdocs/KarryOn_Jobs/wp-admin/includes/class-wp-upgrader-skin.php:93
+Stack trace:
+#0 /Applications/MAMP/htdocs/KarryOn_Jobs/wp-admin/includes/class-automatic-upgrader-skin.php(47): WP_Upgrader_Skin->request_filesystem_credentials(false, '/Applications/M...', true)
+#1 /Applications/MAMP/htdocs/KarryOn_Jobs/wp-admin/includes/class-wp-automatic-updater.php(144): Automatic_Upgrader_Skin->request_filesystem_credentials(false, '/Applications/M...', true)
+#2 /Applications/MAMP/htdocs/KarryOn_Jobs/wp-admin/includes/update.php(85): WP_Automatic_Updater->should_update('core', Object(stdClass), '/Applications/M...')
+#3 /Applications/MAMP/htdocs/KarryOn_Jobs/wp-includes/update.php(215): find_core_auto_update()
+#4 /Applications/MAMP/htdocs/KarryOn_Jobs/wp-includes/class-wp-hook.php(286): wp_version_check()
+#5 /Applications/MAMP/htdocs/KarryOn_Jobs/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#6 /Applic
+
+2018-02-22T22:12:00+00:00 CRITICAL Uncaught Error: Call to undefined function request_filesystem_credentials() in /Applications/MAMP/htdocs/KarryOn_Jobs/wp-admin/includes/class-wp-upgrader-skin.php:93
+Stack trace:
+#0 /Applications/MAMP/htdocs/KarryOn_Jobs/wp-admin/includes/class-automatic-upgrader-skin.php(47): WP_Upgrader_Skin->request_filesystem_credentials(false, '/Applications/M...', true)
+#1 /Applications/MAMP/htdocs/KarryOn_Jobs/wp-admin/includes/class-wp-automatic-updater.php(144): Automatic_Upgrader_Skin->request_filesystem_credentials(false, '/Applications/M...', true)
+#2 /Applications/MAMP/htdocs/KarryOn_Jobs/wp-admin/includes/update.php(85): WP_Automatic_Updater->should_update('core', Object(stdClass), '/Applications/M...')
+#3 /Applications/MAMP/htdocs/KarryOn_Jobs/wp-includes/update.php(215): find_core_auto_update()
+#4 /Applications/MAMP/htdocs/KarryOn_Jobs/wp-includes/class-wp-hook.php(286): wp_version_check()
+#5 /Applications/MAMP/htdocs/KarryOn_Jobs/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#6 /Applic
+
+2018-02-25T04:02:20+00:00 CRITICAL Uncaught Error: Call to undefined function request_filesystem_credentials() in /Applications/MAMP/htdocs/KarryOn_Jobs/wp-admin/includes/class-wp-upgrader-skin.php:93
+Stack trace:
+#0 /Applications/MAMP/htdocs/KarryOn_Jobs/wp-admin/includes/class-automatic-upgrader-skin.php(47): WP_Upgrader_Skin->request_filesystem_credentials(false, '/Applications/M...', true)
+#1 /Applications/MAMP/htdocs/KarryOn_Jobs/wp-admin/includes/class-wp-automatic-updater.php(144): Automatic_Upgrader_Skin->request_filesystem_credentials(false, '/Applications/M...', true)
+#2 /Applications/MAMP/htdocs/KarryOn_Jobs/wp-admin/includes/update.php(85): WP_Automatic_Updater->should_update('core', Object(stdClass), '/Applications/M...')
+#3 /Applications/MAMP/htdocs/KarryOn_Jobs/wp-includes/update.php(215): find_core_auto_update()
+#4 /Applications/MAMP/htdocs/KarryOn_Jobs/wp-includes/class-wp-hook.php(286): wp_version_check()
+#5 /Applications/MAMP/htdocs/KarryOn_Jobs/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#6 /Applic
+
+2018-02-25T21:46:29+00:00 CRITICAL Uncaught Error: Call to undefined function request_filesystem_credentials() in /Applications/MAMP/htdocs/KarryOn_Jobs/wp-admin/includes/class-wp-upgrader-skin.php:93
+Stack trace:
+#0 /Applications/MAMP/htdocs/KarryOn_Jobs/wp-admin/includes/class-automatic-upgrader-skin.php(47): WP_Upgrader_Skin->request_filesystem_credentials(false, '/Applications/M...', true)
+#1 /Applications/MAMP/htdocs/KarryOn_Jobs/wp-admin/includes/class-wp-automatic-updater.php(144): Automatic_Upgrader_Skin->request_filesystem_credentials(false, '/Applications/M...', true)
+#2 /Applications/MAMP/htdocs/KarryOn_Jobs/wp-admin/includes/update.php(85): WP_Automatic_Updater->should_update('core', Object(stdClass), '/Applications/M...')
+#3 /Applications/MAMP/htdocs/KarryOn_Jobs/wp-includes/update.php(215): find_core_auto_update()
+#4 /Applications/MAMP/htdocs/KarryOn_Jobs/wp-includes/class-wp-hook.php(286): wp_version_check()
+#5 /Applications/MAMP/htdocs/KarryOn_Jobs/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#6 /Applic
+
+2018-02-25T23:27:37+00:00 CRITICAL Uncaught Error: Call to a member function add_cap() on null in /Applications/MAMP/htdocs/KarryOn_Jobs/wp-content/themes/noo-jobmonster/functions_custom.php:59
+Stack trace:
+#0 /Applications/MAMP/htdocs/KarryOn_Jobs/wp-includes/class-wp-hook.php(286): add_employer_caps('')
+#1 /Applications/MAMP/htdocs/KarryOn_Jobs/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#2 /Applications/MAMP/htdocs/KarryOn_Jobs/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#3 /Applications/MAMP/htdocs/KarryOn_Jobs/wp-settings.php(450): do_action('init')
+#4 /Applications/MAMP/htdocs/KarryOn_Jobs/wp-config.php(89): require_once('/Applications/M...')
+#5 /Applications/MAMP/htdocs/KarryOn_Jobs/wp-load.php(37): require_once('/Applications/M...')
+#6 /Applications/MAMP/htdocs/KarryOn_Jobs/wp-blog-header.php(13): require_once('/Applications/M...')
+#7 /Applications/MAMP/htdocs/KarryOn_Jobs/index.php(17): require('/Applications/M...')
+#8 {main}
+  thrown
+
+2018-02-25T23:27:39+00:00 CRITICAL Uncaught Error: Call to a member function add_cap() on null in /Applications/MAMP/htdocs/KarryOn_Jobs/wp-content/themes/noo-jobmonster/functions_custom.php:59
+Stack trace:
+#0 /Applications/MAMP/htdocs/KarryOn_Jobs/wp-includes/class-wp-hook.php(286): add_employer_caps('')
+#1 /Applications/MAMP/htdocs/KarryOn_Jobs/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#2 /Applications/MAMP/htdocs/KarryOn_Jobs/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#3 /Applications/MAMP/htdocs/KarryOn_Jobs/wp-settings.php(450): do_action('init')
+#4 /Applications/MAMP/htdocs/KarryOn_Jobs/wp-config.php(89): require_once('/Applications/M...')
+#5 /Applications/MAMP/htdocs/KarryOn_Jobs/wp-load.php(37): require_once('/Applications/M...')
+#6 /Applications/MAMP/htdocs/KarryOn_Jobs/wp-blog-header.php(13): require_once('/Applications/M...')
+#7 /Applications/MAMP/htdocs/KarryOn_Jobs/index.php(17): require('/Applications/M...')
+#8 {main}
+  thrown
+
+2018-02-25T23:27:46+00:00 CRITICAL Uncaught Error: Call to a member function add_cap() on null in /Applications/MAMP/htdocs/KarryOn_Jobs/wp-content/themes/noo-jobmonster/functions_custom.php:59
+Stack trace:
+#0 /Applications/MAMP/htdocs/KarryOn_Jobs/wp-includes/class-wp-hook.php(286): add_employer_caps('')
+#1 /Applications/MAMP/htdocs/KarryOn_Jobs/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#2 /Applications/MAMP/htdocs/KarryOn_Jobs/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#3 /Applications/MAMP/htdocs/KarryOn_Jobs/wp-settings.php(450): do_action('init')
+#4 /Applications/MAMP/htdocs/KarryOn_Jobs/wp-config.php(89): require_once('/Applications/M...')
+#5 /Applications/MAMP/htdocs/KarryOn_Jobs/wp-load.php(37): require_once('/Applications/M...')
+#6 /Applications/MAMP/htdocs/KarryOn_Jobs/wp-blog-header.php(13): require_once('/Applications/M...')
+#7 /Applications/MAMP/htdocs/KarryOn_Jobs/index.php(17): require('/Applications/M...')
+#8 {main}
+  thrown
+
+2018-03-16T05:28:11+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function Noo_Member::get_endpoint_url(), 0 passed in /Applications/MAMP/htdocs/KarryOn_Jobs/wp-content/themes/noo-jobmonster/framework/admin/noo_form_handler.php on line 966 and at least 1 expected in /Applications/MAMP/htdocs/KarryOn_Jobs/wp-content/themes/noo-jobmonster/framework/admin/noo_member.php:717
+Stack trace:
+#0 /Applications/MAMP/htdocs/KarryOn_Jobs/wp-content/themes/noo-jobmonster/framework/admin/noo_form_handler.php(966): Noo_Member::get_endpoint_url()
+#1 /Applications/MAMP/htdocs/KarryOn_Jobs/wp-includes/class-wp-hook.php(286): Noo_Form_Handler::edit_job_action('')
+#2 /Applications/MAMP/htdocs/KarryOn_Jobs/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#3 /Applications/MAMP/htdocs/KarryOn_Jobs/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#4 /Applications/MAMP/htdocs/KarryOn_Jobs/wp-settings.php(450): do_action('init')
+#5 /Applications/MAMP/htdocs/KarryOn_Jobs/wp-config.php(89): require_once('/Applications/M...')
+
