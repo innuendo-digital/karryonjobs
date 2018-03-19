@@ -518,7 +518,7 @@ if ( ! function_exists( 'jm_location_map_js' ) ) :
 	function jm_location_map_js( $hook ) {
 
 		$google_api = jm_get_location_setting( 'google_api', '' );
-		wp_register_script( 'noo-admin-google-map', 'http' . ( is_ssl() ? 's' : '' ) . '://maps.googleapis.com/maps/api/js?sensor=false&language=' . get_locale() . '&libraries=places' . ( ! empty( $google_api ) ? '&key=' . $google_api : '' ), array( 'jquery' ), null, true );
+		wp_register_script( 'noo-admin-google-map', 'http' . ( is_ssl() ? 's' : '' ) . '://maps.googleapis.com/maps/api/js?language=' . get_locale() . '&libraries=places' . ( ! empty( $google_api ) ? '&key=' . $google_api : '' ), array( 'jquery' ), null, true );
 		wp_register_script( 'noo-admin-location-picker', NOO_FRAMEWORK_URI . '/vendor/locationpicker.jquery.js', array(
 			'jquery',
 			'noo-admin-google-map',

@@ -5,7 +5,7 @@ if( !function_exists( 'jm_job_enqueue_scripts' ) ) :
 		$js_suffix = SCRIPT_DEBUG ? '' : '.min';
 
 		$google_api = jm_get_location_setting( 'google_api', '' );
-		wp_register_script( 'google-map','http'.(is_ssl() ? 's':'').'://maps.googleapis.com/maps/api/js?sensor=false&language='.get_locale().'&libraries=places' . ( !empty( $google_api ) ? '&key=' .$google_api : '' ), array('jquery'), null , true);
+		wp_register_script( 'google-map','http'.(is_ssl() ? 's':'').'://maps.googleapis.com/maps/api/js?language='.get_locale().'&libraries=places' . ( !empty( $google_api ) ? '&key=' .$google_api : '' ), array('jquery'), null , true);
 
 		wp_register_script( 'google-map-infobox', $js_folder_uri . '/infobox' . $js_suffix . '.js', array( 'jquery' , 'google-map' ), null, true );
 		wp_register_script( 'google-map-markerclusterer', $js_folder_uri . '/markerclusterer' . $js_suffix . '.js', array( 'jquery' , 'google-map' ), null, true );
